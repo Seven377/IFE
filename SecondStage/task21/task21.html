@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>查询</title>
+	<script type="text/javascript" src="task21.js"></script>
+	<style type="text/css">
+		.quene-tag, .quene-hobby{
+			font-size: 20px;
+			color: white;
+			line-height: 30px;
+			text-align: center;
+			margin-top: 10px;
+			height: 200px;
+		}
+		.quene-tag div{
+			height: 30px;
+			float: left;
+			padding: 0 5px;
+			background-color: #84caff;
+			margin: 5px;
+		}
+		.quene-hobby div{
+			height: 30px;
+			float: left;
+			padding: 0 5px;
+			background-color: #ffc987;
+			margin: 5px;
+		}
+		.tag, .hobby{
+			height:130px;
+		}
+
+	</style>
+</head>
+<body>
+	<div style="margin-bottom: 10px, vertical-align: center;">
+		<div class="tag">
+			<label for="input-tag">Tag:</label><input id="input-tag" type="text" name="input-tag"></input> <br/>
+			<div class="quene-tag"></div>
+		</div>
+		<div class="hobby">
+			<textarea id="input-hobby" cols="20" rows="4"></textarea>
+			<input id="hobby-confirm" type="button" value="确认兴趣爱好"></input>
+			<div class="quene-hobby"></div>
+		</div>	
+	</div>
+</body>
+</html>
