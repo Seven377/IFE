@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>二叉树遍历</title>
+	<script type="text/javascript" src="task22.js"></script>
+	<style type="text/css">
+		.layer1{
+			width: 800px;
+			height: 150px;
+			border: 2px solid #000;
+		}
+		.layer2, .layer3, .layer4{
+			width: 45%;
+			height: 80%;
+			border: 2px solid #000;
+			float: left;
+			margin: 1.8% 2%;
+		}
+		.layer3{
+			margin: 3% 2.5%;
+			width: 43%;
+		}
+		.layer4{
+			width: 40%;
+			height: 50%;
+			margin: 12% 3.2%;
+		}
+		#btn {
+			float: left;
+			margin-top:10px;
+		}
+	</style>
+</head>
+<body>
+	<div class="layer1">
+		<div class="layer2">
+			<div class="layer3">
+				<div class="layer4"></div>
+				<div class="layer4"></div>
+			</div>
+			<div class="layer3">
+				<div class="layer4"></div>
+				<div class="layer4"></div>
+			</div>
+		</div>
+		<div class="layer2">
+			<div class="layer3">
+				<div class="layer4"></div>
+				<div class="layer4"></div>
+			</div>
+			<div class="layer3">
+				<div class="layer4"></div>
+				<div class="layer4"></div>
+			</div>
+		</div>
+	</div>
+	<div id="btn">
+		<button id="preorder">先序遍历</button>
+		<button id="inorder">中序遍历</button>
+		<button id="postorder">后序遍历</button>
+	</div>	
+</body>
+</html>
