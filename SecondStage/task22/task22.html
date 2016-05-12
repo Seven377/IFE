@@ -5,7 +5,8 @@
 	<title>二叉树遍历</title>
 	<script type="text/javascript" src="task22.js"></script>
 	<style type="text/css">
-		.layer1{
+	/*常规布局*/
+		/*.layer1{
 			width: 800px;
 			height: 150px;
 			border: 2px solid #000;
@@ -25,15 +26,30 @@
 			width: 40%;
 			height: 50%;
 			margin: 12% 3.2%;
+		}*/
+
+	/*Flex布局*/
+		#tree div{
+			width: 45%;
+			height: 80%;
+			display: flex;
+			justify-content: space-around;
+			align-items: center;
+			border: 1px solid #000;
+		}
+		#tree #root{
+			width: 800px;
+			height: 120px;
 		}
 		#btn {
-			float: left;
+			/*float: left;*/
 			margin-top:10px;
 		}
 	</style>
 </head>
 <body>
-	<div class="layer1">
+	<!-- 常规布局-->
+	<!-- <div class="layer1">
 		<div class="layer2">
 			<div class="layer3">
 				<div class="layer4"></div>
@@ -54,7 +70,33 @@
 				<div class="layer4"></div>
 			</div>
 		</div>
-	</div>
+	</div> -->
+
+	<!-- Flex布局 -->
+	<div id="tree">
+		<div id="root">
+			<div>
+				<div>
+					<div></div>
+					<div></div>
+				</div>
+				<div>
+					<div></div>
+					<div></div>
+				</div>
+			</div>
+			<div>
+				<div>
+					<div></div>
+					<div></div>
+				</div>
+				<div>
+					<div></div>
+					<div></div>
+				</div>
+			</div>
+		</div>
+	</div>	
 	<div id="btn">
 		<button id="preorder">先序遍历</button>
 		<button id="inorder">中序遍历</button>
