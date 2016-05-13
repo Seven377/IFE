@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>深度优先遍历 广度优先遍历</title>
+	<script type="text/javascript" src="task23"></script>
+	<style type="text/css">
+		#tree div{
+			height: 80%;
+			border: 1px solid #000;
+			display: flex;
+			justify-content: space-around;
+			align-items: center;
+			flex-grow: 1;
+			margin: 5px;
+		}
+		#tree #root{
+			width: 1300px;
+			height: 120px;
+		}
+		.btn{
+			margin-top:15px;
+		}
+	</style>
+</head>
+<body>
+	<div id="tree">
+		<div id="root">
+		a
+			<div>
+			a1
+				<div>
+				a11
+					<div>a111</div>
+					<div>a112</div>
+					<div>a113</div>
+					<div>a114</div>
+				</div>
+				<div>a12</div>
+				<div>
+				a13
+					<div>a131</div>
+					<div>a132</div>
+				</div>
+			</div>
+			<div>
+			a2
+				<div>
+				a21
+					<div>a211</div>
+					<div>a212</div>
+					<div>a213</div>
+				</div>
+				<div>
+				a22
+					<div>
+					a221
+						<div>a2211</div>
+					</div>
+					<div>a222</div>
+				</div>
+			</div>
+			<div>a3</div>
+		</div>
+	</div>
+	<div class="btn">
+		<button id="BFtraverse">广度优先遍历</button>
+		<button id="DFtraverse">深度优先遍历</button>
+		<input id="input-content" type="text"></input>
+		<button id="BFsearch">广度优先搜索</button>
+		<button id="DFsearch">深度优先搜索</button>
+	</div>
+</body>
+</html>
