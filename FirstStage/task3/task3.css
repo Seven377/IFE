@@ -1,0 +1,42 @@
+.main-wrapper, .left, .middle{
+		padding: 20px;
+		border: 1px solid #999;
+}
+body{
+	padding: 20px;
+}
+.left{
+	width: 160px;
+	float: left;
+	font-size: 12px;
+}
+.right{
+	width: 120px;
+	float: right;
+	border: 1px solid #999;
+}
+.middle{
+	margin-left: 220px;
+	margin-right: 140px;
+}
+.main-wrapper img{
+	width: 80px;
+	height: 80px;
+}
+.main-wrapper{
+	background-color: #eee;
+	overflow: hidden;
+	min-width: 600px;
+}
+.name{
+	float: right;
+}
+.left img{
+	float: left;
+}
+.right img{
+	margin: 20px;
+	display: block;
+}
+
+
