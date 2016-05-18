@@ -2,10 +2,32 @@ body{
 	background-color: #ccc;
 	margin: 0;
 }
-.header{
+.header, .bottom{
 	width: 100%;
 	height: 70px;
 	background-color: #333;
+	color: white;
+}
+.header h2{
+	display: inline;
+	line-height: 70px;
+}
+.header ul{
+	display: inline;
+	float: right;
+}
+.header li{
+	display: inline;
+	line-height: 30px;
+	margin-right: 5px;
+}
+.header a{
+	color: white;
+	text-decoration: none;
+}
+.header a:hover{
+	color: blue;
+	text-decoration: underline;
 }
 .content{
 	min-width: 560px;
@@ -83,4 +105,8 @@ body{
 .lastrow{
 	background-color: #666;
 	color: white;
+}
+.bottom{
+	text-align: center;
+	padding-top: 10px;
 }
