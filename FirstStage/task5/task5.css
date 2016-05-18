@@ -1,0 +1,86 @@
+body{
+	background-color: #ccc;
+	margin: 0;
+}
+.header{
+	width: 100%;
+	height: 70px;
+	background-color: #333;
+}
+.content{
+	min-width: 560px;
+}
+.right{
+	float: right;
+	width: 300px;
+	font-size: 14px;
+	padding: 20px;
+	background-color: #fff;
+	margin: 0 20px 20px 10px;
+}
+.right label{
+	width: 125px;
+	text-align: right;
+	display: inline-block;
+	margin-right: 8px;
+}
+.inputText{
+	width: 130px;
+}
+.hint{
+	margin-left: 133px;
+	color: #999;
+	font-size: 12px;
+}
+.describe{
+	height: 50px;
+}
+.labelDescr{
+	position: relative;
+	top: -40px;
+}
+.submit{
+	width: 260px;
+	height: 40px;
+	background-color: #0000ff;
+	color: white;
+	margin-left: 20px;
+	font-size: 20px;
+	border-radius: 10px;
+}
+.content img{
+	width: 80px;
+	height: 80px;
+}
+.left{
+	margin: 10px 380px 0 20px;
+}
+.left1{
+	margin: 10px 0;
+	background-color: white;
+	padding: 10px 20px;
+}
+.img1{
+	border: 1px solid #999;
+	padding: 0 20px;
+	font-size: 13px;
+	width: 80px;
+	height: 140px;
+	text-align: center;
+	margin: 10px;
+	display: inline-block;
+}
+.firstrow{
+	background-color: #333;
+	color: white;
+}
+.table1{
+	width: 100%;
+	font-size: 15px;
+	text-align: center;
+	line-height: 20px;
+}
+.lastrow{
+	background-color: #666;
+	color: white;
+}
