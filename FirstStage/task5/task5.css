@@ -39,6 +39,7 @@ body{
 	padding: 20px;
 	background-color: #fff;
 	margin: 0 20px 20px 10px;
+	box-shadow: 5px 5px 10px #333;
 }
 .right label{
 	width: 125px;
@@ -81,6 +82,7 @@ body{
 	margin: 10px 0;
 	background-color: white;
 	padding: 10px 20px;
+	box-shadow: 5px 5px 10px #333;
 }
 .img1{
 	border: 1px solid #999;
